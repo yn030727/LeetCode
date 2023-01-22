@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class LeetCode1824 {
     //解题思路：动态规划的思想来处理问题
     //将题目转化成到达当前位置的最少跳跃次数
