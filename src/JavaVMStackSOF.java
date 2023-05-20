@@ -1,28 +1,28 @@
-public class JavaVMStackSOF{
-    private void dontStop(){
-        while(true){
-
-        }
-    }
-
-    private void stackLeakByThread(){
-        while (true){
-            Thread thread = new Thread(new Runnable() {
-                @Override
-                public void run() {
-                    dontStop();
-                }
-            });
-            thread.start();
-        }
-    }
-
-    public static void main(String[] args) {
-        JavaVMStackSOF oom = new JavaVMStackSOF();
-        oom.stackLeakByThread();
-    }
-}
-
+//public class JavaVMStackSOF{
+//    private void dontStop(){
+//        while(true){
+//
+//        }
+//    }
+//
+//    private void stackLeakByThread(){
+//        while (true){
+//            Thread thread = new Thread(new Runnable() {
+//                @Override
+//                public void run() {
+//                    dontStop();
+//                }
+//            });
+//            thread.start();
+//        }
+//    }
+//
+//    public static void main(String[] args) {
+//        JavaVMStackSOF oom = new JavaVMStackSOF();
+//        oom.stackLeakByThread();
+//    }
+//}
+//
 
 
 
