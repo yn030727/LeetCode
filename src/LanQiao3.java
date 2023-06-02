@@ -12,6 +12,7 @@ public class LanQiao3 {
         if(list.contains(number)){
             System.out.println("niubi");
         }
+
     }
 
 
