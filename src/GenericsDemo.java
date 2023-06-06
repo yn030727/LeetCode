@@ -25,6 +25,7 @@ public class GenericsDemo {
         int sum = 0 ;
         for(int i : list){
             sum += i;
+
         }
         System.out.println(sum);
     }
