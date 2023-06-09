@@ -25,7 +25,7 @@ public class VolatileTest {
         }
 
         //等待所有累加线程都结束
-        while (Thread.activeCount() > 1){
+        while (Thread.activeCount()  > 1){
             Thread.yield();
         }
 
