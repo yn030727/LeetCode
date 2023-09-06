@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 
 public class test1 {
@@ -19,6 +20,7 @@ public class test1 {
         list.add("222");
         list.add("1111");
         list.add("1111");
+
 
 
         for (int i = 0; i < list.size(); i++) {
