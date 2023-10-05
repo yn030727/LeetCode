@@ -1,3 +1,4 @@
+import java.awt.*;
 import java.util.Scanner;
 
 public class LanQiao1 {
@@ -13,6 +14,7 @@ public class LanQiao1 {
             number[i] = sc.nextLong();
             i++;
         }
+
         long t = dfs(0 , 0);
     }
 
